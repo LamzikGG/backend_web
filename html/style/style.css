@@ -1,0 +1,79 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+.header{
+  position: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{ /* Убрать в будущем и преципить картинку*/
+ width: 125px;
+ height: 125px;
+ background: black;
+}
+.navbar a{
+  font-size: 18px;
+  color:black;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.body{
+  display:flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.img{
+  height: 350px;
+  width: 350px;
+}
+.card{
+  height: 500px;
+  width: 500px;
+  margin: 5px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  position: relative;
+}
+.card h1 {
+  color: white;
+  left: 0%;
+  position: absolute;
+  left: 5px;
+  top: 10px; 
+}
+.container{
+  display: flex;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336; 
+  color: white;
+  margin-bottom: 15px;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closebtn:hover {
+  color: black;
+}

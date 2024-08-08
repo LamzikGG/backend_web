@@ -1,0 +1,56 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+.header{
+  position: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{ /* Убрать в будущем и преципить картинку*/
+  width: 125px;
+  height: 125px;
+  background: black;
+ }
+.navbar a{
+  font-size: 18px;
+  color:black;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+/* style.css */
+.flex-container {
+  display: block;
+  justify-content: space-between; /* Распределяет пространство между элементами */
+  align-items: flex-start; /* Выравнивает элементы по верхнему краю */
+  padding: 20px;
+}
+.info-block {
+  text-align: left;
+}
+
+.photo-circle{
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+}
+
+.tracks-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tracks-list li {
+  margin-bottom: 10px;
+}
